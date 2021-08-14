@@ -1,0 +1,36 @@
+:root{
+    background-color: #fff;
+    color: rgb(128, 123, 123);
+    font-weight: bolder;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+   font-family: "poppins", sans-serif;
+    display: block;
+    position: relative;
+    margin: inherit;
+    padding: inherit;
+    font-size: 200%;
+}
+
+ul li{
+    list-style: none;
+}
+div,ul,li,span,p, h1,h2,h3,h4,h5,h6{
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width:790px){
+    .row{
+        display: block;
+    }
+}

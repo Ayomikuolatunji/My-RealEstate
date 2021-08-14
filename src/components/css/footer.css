@@ -1,0 +1,62 @@
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 2px solid lightgray;
+    width: 85%;
+    margin:30px auto 0 auto;
+    background-color: lightgray;
+}
+
+.col-footer{
+    width: 350px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.col-footer h1{
+   font-size: 25px;
+   color: #000;
+
+}
+.text-center{
+    text-align: center;
+}
+.col-footer ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.col-footer ul li:nth-child(1) a{
+    color: blue;
+}
+.col-footer ul li:nth-child(2) a{
+    color: rgb(226, 47, 47);
+}
+.col-footer ul li:nth-child(3) a{
+    color: rgb(21, 119, 247);
+}
+.col-footer ul li:nth-child(4) a{
+    color: rgb(58, 247, 11);
+}
+.col-footer ul li:nth-child(5) a{
+    color: rgb(201, 5, 5);
+}
+.col-footer ul li,Link,a{
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: rgb(240, 239, 239);
+    transition: all .7s ease;
+    text-decoration: none;
+}
+.col-footer ul li:hover,Link:hover,a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.col-footer .p{
+    font-size: 22px;
+}
+
+.size{
+    font-size: 19px;
+}

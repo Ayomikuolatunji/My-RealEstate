@@ -1,0 +1,31 @@
+.about{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin:20px auto;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.about-content{
+    max-width: 100%;
+    margin:0;
+}
+.about-content h1{
+    font-size: 45px;
+    color: rgb(82, 73, 73);
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.about-content h5{
+    font-family: serif;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+.about-content .p{
+    font-size: 25px;
+    text-align: start;
+}
+.about-content .p .anchor{
+    font-size: 20px;
+}
